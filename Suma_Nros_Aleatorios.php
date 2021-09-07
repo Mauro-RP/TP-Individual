@@ -11,4 +11,10 @@ function Conjunto($n)
 	return $conjunto;
 }
 $enteros = Conjunto(200);
+$sum = 0;
+foreach ($enteros as $ind => $valor) 
+{
+	echo $valor," / ";
+	$sum += $enteros[$ind];
+}
 ?>
