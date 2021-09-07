@@ -17,4 +17,5 @@ foreach ($enteros as $ind => $valor)
 	echo $valor," / ";
 	$sum += $enteros[$ind];
 }
+echo "<br><br>La suma de los 200 numeros enteros es: ", $sum;
 ?>
